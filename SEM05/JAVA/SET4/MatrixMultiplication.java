@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class MatrixMultiplication {
     public static void main(String[] args) {

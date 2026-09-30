@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class DiagonalSum {
     public static void main(String[] args) {
