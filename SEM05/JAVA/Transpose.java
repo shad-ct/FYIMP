@@ -29,14 +29,3 @@ public class Transpose {
         }
     }
 }
-
-/*
- * Output:
- * 1 2
- * 3 4
- * 
- * Transpose:
- * 1 3
- * 2 4
- * 
- */

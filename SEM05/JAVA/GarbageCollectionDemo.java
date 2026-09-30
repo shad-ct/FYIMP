@@ -21,22 +21,11 @@ public class GarbageCollectionDemo {
         d2.display();
         d3.display();
 
-        // Make objects eligible for garbage collection
         d1 = null;
         d2 = null;
 
-        // Request garbage collection
         System.gc();
 
         System.out.println("Garbage collection requested.");
     }
 }
-
-/*
- * Output:
- * Hello from Demo object
- * Hello from Demo object
- * Hello from Demo object
- * Garbage collection requested.
- * 
- */

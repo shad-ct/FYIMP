@@ -37,14 +37,3 @@ public class LargestSmallest {
         System.out.println("Smallest = " + smallest);
     }
 }
-
-/*
- * Output:
- * Enter elements:
- * 5 9
- * 2 7
- * 
- * Largest = 9
- * Smallest = 2
- * 
- */

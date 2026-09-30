@@ -33,17 +33,3 @@ public class ReadDisplay2D {
         }
     }
 }
-
-/*
- * Output:
- * Rows: 2
- * Columns: 3
- * Enter elements:
- * 1 2 3
- * 4 5 6
- * 
- * Matrix:
- * 1 2 3
- * 4 5 6
- * 
- */

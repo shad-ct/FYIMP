@@ -24,12 +24,3 @@ public class Sum2D {
         System.out.println("Sum = " + sum);
     }
 }
-
-/*
- * Output:
- * Enter 4 elements:
- * 1 2
- * 3 4
- * Sum = 10
- * 
- */

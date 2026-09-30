@@ -27,13 +27,3 @@ public class SumAverage {
         System.out.println("Average = " + average);
     }
 }
-
-/*
- * Output:
- * Enter size: 5
- * Enter elements:
- * 10 20 30 40 50
- * Sum = 150
- * Average = 30.0
- * 
- */

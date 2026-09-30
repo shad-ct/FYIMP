@@ -46,19 +46,3 @@ public class MatrixMultiplication {
         }
     }
 }
-
-/*
- * Output:
- * First:
- * 1 2
- * 3 4
- * 
- * Second:
- * 5 6
- * 7 8
- * 
- * Product:
- * 19 22
- * 43 50
- * 
- */

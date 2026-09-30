@@ -34,19 +34,3 @@ public class MatrixAddition {
         }
     }
 }
-
-/*
- * Output:
- * First:
- * 1 2
- * 3 4
- * 
- * Second:
- * 5 6
- * 7 8
- * 
- * Sum Matrix:
- * 6 8
- * 10 12
- * 
- */

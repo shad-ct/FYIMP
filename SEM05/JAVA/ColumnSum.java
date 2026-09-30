@@ -31,14 +31,3 @@ public class ColumnSum {
         }
     }
 }
-
-/*
- * Output:
- * 1 2 3
- * 4 5 6
- * 
- * Column 1 Sum = 5
- * Column 2 Sum = 7
- * Column 3 Sum = 9
- * 
- */

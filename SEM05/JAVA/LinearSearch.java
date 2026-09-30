@@ -37,13 +37,3 @@ public class LinearSearch {
         }
     }
 }
-
-/*
- * Output:
- * Enter size: 5
- * Enter elements:
- * 11 22 33 44 55
- * Enter element to search: 33
- * Element found at index 2
- * 
- */

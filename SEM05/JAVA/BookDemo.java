@@ -8,14 +8,12 @@ class Book {
     String author;
     double price;
 
-    // Default constructor
     Book() {
         title = "Unknown";
         author = "Unknown";
         price = 0.0;
     }
 
-    // Parameterized constructor
     Book(String title, String author, double price) {
         this.title = title;
         this.author = author;
@@ -45,15 +43,3 @@ public class BookDemo {
         b2.display();
     }
 }
-
-/*
- * Output:
- * Title: Unknown
- * Author: Unknown
- * Price: 0.0
- * 
- * Title: The Alchemist
- * Author: Paulo Coelho
- * Price: 450.0
- * 
- */

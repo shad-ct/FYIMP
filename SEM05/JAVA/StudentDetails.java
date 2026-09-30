@@ -26,11 +26,3 @@ public class StudentDetails {
         s.display();
     }
 }
-
-/*
- * Output:
- * Name: Adel
- * Roll No: 101
- * Mark: 85.5
- * 
- */

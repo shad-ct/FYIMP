@@ -31,13 +31,3 @@ public class RowSum {
         }
     }
 }
-
-/*
- * Output:
- * 1 2 3
- * 4 5 6
- * 
- * Row 1 Sum = 6
- * Row 2 Sum = 15
- * 
- */

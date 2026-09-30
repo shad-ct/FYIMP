@@ -7,19 +7,16 @@ class Rectangle {
     int length;
     int breadth;
 
-    // Default constructor
     Rectangle() {
         length = 1;
         breadth = 1;
     }
 
-    // Constructor for rectangle
     Rectangle(int length, int breadth) {
         this.length = length;
         this.breadth = breadth;
     }
 
-    // Constructor for square
     Rectangle(int side) {
         length = side;
         breadth = side;
@@ -47,16 +44,3 @@ public class RectangleDemo {
         r3.displayArea();
     }
 }
-
-/*
- * Output:
- * Default rectangle:
- * Area = 1
- * 
- * Rectangle:
- * Area = 50
- * 
- * Square:
- * Area = 49
- * 
- */

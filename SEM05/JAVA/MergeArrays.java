@@ -46,16 +46,3 @@ public class MergeArrays {
         }
     }
 }
-
-/*
- * Output:
- * Enter size of first array: 3
- * Enter first array elements:
- * 10 20 30
- * Enter size of second array: 3
- * Enter second array elements:
- * 40 50 60
- * Merged Array:
- * 10 20 30 40 50 60
- * 
- */

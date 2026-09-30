@@ -35,13 +35,3 @@ public class SortArray {
         }
     }
 }
-
-/*
- * Output:
- * Enter size: 5
- * Enter elements:
- * 50 20 40 10 30
- * Sorted Array:
- * 10 20 30 40 50
- * 
- */

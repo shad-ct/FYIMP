@@ -30,12 +30,3 @@ public class SmallestElement {
         System.out.println("Smallest Element = " + smallest);
     }
 }
-
-/*
- * Output:
- * Enter size: 5
- * Enter elements:
- * 12 45 8 90 34
- * Smallest Element = 8
- * 
- */

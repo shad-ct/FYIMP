@@ -39,19 +39,3 @@ public class EmployeeDetails {
         e3.display();
     }
 }
-
-/*
- * Output:
- * Name: Arun
- * ID: 101
- * Salary: 30000.0
- * 
- * Name: Rahul
- * ID: 102
- * Salary: 35000.0
- * 
- * Name: Anu
- * ID: 103
- * Salary: 40000.0
- * 
- */

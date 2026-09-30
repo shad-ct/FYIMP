@@ -35,13 +35,3 @@ public class SymmetricMatrix {
             System.out.println("Matrix is Not Symmetric");
     }
 }
-
-/*
- * Output:
- * 1 2 3
- * 2 5 6
- * 3 6 9
- * 
- * Matrix is Symmetric
- * 
- */

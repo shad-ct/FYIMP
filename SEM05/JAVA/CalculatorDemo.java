@@ -33,11 +33,3 @@ public class CalculatorDemo {
                            + c.add(10.5, 20.5));
     }
 }
-
-/*
- * Output:
- * Addition of two integers: 30
- * Addition of three integers: 60
- * Addition of two doubles: 31.0
- * 
- */

@@ -5,17 +5,14 @@
 
 class Area {
 
-    // Area of square
     int calculateArea(int side) {
         return side * side;
     }
 
-    // Area of rectangle
     int calculateArea(int length, int breadth) {
         return length * breadth;
     }
 
-    // Area of circle
     double calculateArea(double radius) {
         return Math.PI * radius * radius;
     }
@@ -36,11 +33,3 @@ public class AreaDemo {
                            + a.calculateArea(7.0));
     }
 }
-
-/*
- * Output:
- * Area of square: 25
- * Area of rectangle: 50
- * Area of circle: 153.93804002589985
- * 
- */

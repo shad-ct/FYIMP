@@ -30,13 +30,3 @@ public class EvenOddCount {
         System.out.println("Odd Count = " + odd);
     }
 }
-
-/*
- * Output:
- * Enter size: 6
- * Enter elements:
- * 2 5 7 8 10 13
- * Even Count = 3
- * Odd Count = 3
- * 
- */

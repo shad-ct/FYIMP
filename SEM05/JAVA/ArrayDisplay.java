@@ -25,13 +25,3 @@ public class ArrayDisplay {
         }
     }
 }
-
-/*
- * Output:
- * Enter size: 5
- * Enter elements:
- * 10 20 30 40 50
- * Array Elements:
- * 10 20 30 40 50
- * 
- */

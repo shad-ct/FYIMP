@@ -30,12 +30,3 @@ public class LargestElement {
         System.out.println("Largest Element = " + largest);
     }
 }
-
-/*
- * Output:
- * Enter size: 5
- * Enter elements:
- * 12 45 8 90 34
- * Largest Element = 90
- * 
- */
