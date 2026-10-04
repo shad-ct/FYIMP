@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create a Servlet demonstrating the init(), service() and destroy() life-cycle methods and display messages showing when each method is executed. -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+<servlet><servlet-name>life</servlet-name><servlet-class>ServletLifeCycle</servlet-class></servlet>
+<servlet-mapping><servlet-name>life</servlet-name><url-pattern>/life</url-pattern></servlet-mapping>
+</web-app>

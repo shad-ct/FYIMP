@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create an HTML form and Servlet that handles GET and POST requests. Implement a response for a HEAD request and demonstrate the differences. -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+<servlet><servlet-name>m</servlet-name><servlet-class>GetPostHead</servlet-class></servlet>
+<servlet-mapping><servlet-name>m</servlet-name><url-pattern>/method</url-pattern></servlet-mapping>
+</web-app>

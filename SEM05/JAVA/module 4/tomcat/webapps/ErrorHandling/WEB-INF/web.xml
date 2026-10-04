@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create a Servlet that intentionally generates an error and implement a custom error page using appropriate Servlet/web configuration. -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+<servlet><servlet-name>e</servlet-name><servlet-class>ErrorServlet</servlet-class></servlet>
+<servlet-mapping><servlet-name>e</servlet-name><url-pattern>/error</url-pattern></servlet-mapping>
+<error-page><exception-type>javax.servlet.ServletException</exception-type><location>/error.jsp</location></error-page>
+</web-app>

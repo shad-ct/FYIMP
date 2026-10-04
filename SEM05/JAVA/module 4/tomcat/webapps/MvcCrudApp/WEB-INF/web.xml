@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Develop an MVC-based application to add, view, update and delete student records using JSP, Servlet and JDBC. -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+<servlet><servlet-name>crud</servlet-name><servlet-class>MvcCrudApp</servlet-class></servlet>
+<servlet-mapping><servlet-name>crud</servlet-name><url-pattern>/crud</url-pattern></servlet-mapping>
+</web-app>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create a Servlet that displays student information and deploy it on a servlet container such as Apache Tomcat. -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+<servlet><servlet-name>basic</servlet-name><servlet-class>BasicServlet</servlet-class></servlet>
+<servlet-mapping><servlet-name>basic</servlet-name><url-pattern>/basic</url-pattern></servlet-mapping>
+</web-app>

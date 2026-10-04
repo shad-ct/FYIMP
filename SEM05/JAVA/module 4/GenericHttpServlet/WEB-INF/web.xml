@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create one Servlet using GenericServlet and another using HttpServlet, and demonstrate their differences. -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+<servlet><servlet-name>g</servlet-name><servlet-class>GenericDemo</servlet-class></servlet>
+<servlet-mapping><servlet-name>g</servlet-name><url-pattern>/generic</url-pattern></servlet-mapping>
+<servlet><servlet-name>h</servlet-name><servlet-class>HttpDemo</servlet-class></servlet>
+<servlet-mapping><servlet-name>h</servlet-name><url-pattern>/http</url-pattern></servlet-mapping>
+</web-app>

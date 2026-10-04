@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create two Servlets where the first Servlet processes a request and forwards or includes the request to the second Servlet using RequestDispatcher. -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+<servlet><servlet-name>f</servlet-name><servlet-class>FirstServlet</servlet-class></servlet>
+<servlet-mapping><servlet-name>f</servlet-name><url-pattern>/first</url-pattern></servlet-mapping>
+<servlet><servlet-name>s</servlet-name><servlet-class>SecondServlet</servlet-class></servlet>
+<servlet-mapping><servlet-name>s</servlet-name><url-pattern>/second</url-pattern></servlet-mapping>
+</web-app>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Develop a simple Student Management application following Model-View-Controller architecture. -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+<servlet><servlet-name>mvc</servlet-name><servlet-class>SimpleMvcApp</servlet-class></servlet>
+<servlet-mapping><servlet-name>mvc</servlet-name><url-pattern>/student</url-pattern></servlet-mapping>
+</web-app>

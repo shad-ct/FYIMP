@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Develop a simple shopping cart/session-based application using HttpSession to maintain user information across multiple requests. -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+<servlet><servlet-name>cart</servlet-name><servlet-class>SessionCart</servlet-class></servlet>
+<servlet-mapping><servlet-name>cart</servlet-name><url-pattern>/cart</url-pattern></servlet-mapping>
+</web-app>

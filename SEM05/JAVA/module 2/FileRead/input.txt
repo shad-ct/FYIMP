@@ -1,0 +1,3 @@
+Hello, this is a sample input file for FileInputStream demo.
+Java file handling example.
+Line three of input.txt.

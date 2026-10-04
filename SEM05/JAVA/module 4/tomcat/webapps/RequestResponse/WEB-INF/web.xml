@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create a Servlet that reads parameters from an HTML form and generates an appropriate HTML response using HttpServletRequest and HttpServletResponse. -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+<servlet><servlet-name>r</servlet-name><servlet-class>RequestResponse</servlet-class></servlet>
+<servlet-mapping><servlet-name>r</servlet-name><url-pattern>/respond</url-pattern></servlet-mapping>
+</web-app>

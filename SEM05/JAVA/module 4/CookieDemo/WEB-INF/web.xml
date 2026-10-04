@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create a Servlet application that stores the user's name or preferences in a cookie and retrieves the information during subsequent requests. -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+<servlet><servlet-name>c</servlet-name><servlet-class>CookieDemo</servlet-class></servlet>
+<servlet-mapping><servlet-name>c</servlet-name><url-pattern>/cookie</url-pattern></servlet-mapping>
+</web-app>

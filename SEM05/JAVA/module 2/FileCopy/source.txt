@@ -1,0 +1,2 @@
+This is the source file for BufferedInputStream and BufferedOutputStream copy demo.
+Second line of source.txt.

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create a custom JSP tag that performs a reusable operation such as displaying student information, formatting text or generating a message, using a custom tag handler and TLD file. -->
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" version="2.1">
+<tlib-version>1.0</tlib-version>
+<short-name>ct</short-name>
+<uri>http://example.com/tags</uri>
+<tag><name>hello</name><tag-class>tags.HelloTag</tag-class><body-content>empty</body-content></tag>
+</taglib>
