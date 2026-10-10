@@ -1,1 +1,23 @@
--cp ".;lib\mysql-connector-j.jar"
+Run from this folder:
+cd "/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 3"
+1. Compile all at once (root files)
+javac -cp ".:lib/mysql-connector-j.jar" BankTransfer.java DatabaseMetadata.java DbConnection.java JdbcExceptionHandling.java ResultSetMetadata.java ResultSetNavigation.java StoredProcedureDemo.java StudentCrud.java StudentRegistration.java
+2. Run commands — one per program
+java -cp ".:lib/mysql-connector-j.jar" DbConnection
+java -cp ".:lib/mysql-connector-j.jar" StudentCrud
+java -cp ".:lib/mysql-connector-j.jar" StudentRegistration
+java -cp ".:lib/mysql-connector-j.jar" JdbcExceptionHandling
+java -cp ".:lib/mysql-connector-j.jar" BankTransfer
+java -cp ".:lib/mysql-connector-j.jar" StoredProcedureDemo
+java -cp ".:lib/mysql-connector-j.jar" ResultSetNavigation
+java -cp ".:lib/mysql-connector-j.jar" ResultSetMetadata
+java -cp ".:lib/mysql-connector-j.jar" DatabaseMetadata
+Or compile+run single file, e.g.:
+javac -cp ".:lib/mysql-connector-j.jar" DbConnection.java && java -cp ".:lib/mysql-connector-j.jar" DbConnection
+3. BlobClobDemo (must run inside its folder — it uses sample_image.png / sample_doc.txt via relative path)
+cd "/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 3/BlobClobDemo"
+javac -cp ".:../lib/mysql-connector-j.jar" BlobClobDemo.java
+java -cp ".:../lib/mysql-connector-j.jar" BlobClobDemo
+Pre-requisite: MySQL running with college_db:
+CREATE DATABASE IF NOT EXISTS college_db;
+
