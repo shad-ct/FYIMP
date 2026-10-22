@@ -1,0 +1,380 @@
+11-Oct-2026 16:21:35.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+11-Oct-2026 16:21:35.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+11-Oct-2026 16:21:35.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+11-Oct-2026 16:21:35.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2026 16:21:35.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            7.0.0-38-generic
+11-Oct-2026 16:21:35.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2026 16:21:35.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+11-Oct-2026 16:21:35.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.20.1+1-1-26.04-Ubuntu
+11-Oct-2026 16:21:35.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+11-Oct-2026 16:21:35.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat
+11-Oct-2026 16:21:35.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat
+11-Oct-2026 16:21:35.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Oct-2026 16:21:35.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Oct-2026 16:21:35.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Oct-2026 16:21:35.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Oct-2026 16:21:35.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2026 16:21:35.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/conf/logging.properties
+11-Oct-2026 16:21:35.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2026 16:21:35.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2026 16:21:35.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2026 16:21:35.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Oct-2026 16:21:35.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Oct-2026 16:21:35.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat
+11-Oct-2026 16:21:35.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat
+11-Oct-2026 16:21:35.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/temp
+11-Oct-2026 16:21:35.122 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+11-Oct-2026 16:21:35.632 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2026 16:21:35.675 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [915] milliseconds
+11-Oct-2026 16:21:35.753 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Oct-2026 16:21:35.754 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+11-Oct-2026 16:21:35.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspDirectives]
+11-Oct-2026 16:21:36.837 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:36.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspDirectives] has finished in [1,173] ms
+11-Oct-2026 16:21:36.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/docs]
+11-Oct-2026 16:21:37.463 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:37.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/docs] has finished in [522] ms
+11-Oct-2026 16:21:37.471 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/MvcCrudApp]
+11-Oct-2026 16:21:37.933 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:37.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/MvcCrudApp] has finished in [471] ms
+11-Oct-2026 16:21:37.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/CustomTag]
+11-Oct-2026 16:21:38.414 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:38.426 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/CustomTag] has finished in [483] ms
+11-Oct-2026 16:21:38.427 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/GenericHttpServlet]
+11-Oct-2026 16:21:38.876 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:38.886 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/GenericHttpServlet] has finished in [459] ms
+11-Oct-2026 16:21:38.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/examples]
+11-Oct-2026 16:21:39.386 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:39.462 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/examples] has finished in [575] ms
+11-Oct-2026 16:21:39.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/SimpleMvcApp]
+11-Oct-2026 16:21:39.799 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:39.804 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/SimpleMvcApp] has finished in [340] ms
+11-Oct-2026 16:21:39.804 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/GetPostHead]
+11-Oct-2026 16:21:40.092 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:40.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/GetPostHead] has finished in [294] ms
+11-Oct-2026 16:21:40.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/host-manager]
+11-Oct-2026 16:21:40.459 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:40.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/host-manager] has finished in [370] ms
+11-Oct-2026 16:21:40.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/manager]
+11-Oct-2026 16:21:40.787 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:40.792 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/manager] has finished in [321] ms
+11-Oct-2026 16:21:40.792 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/RequestResponse]
+11-Oct-2026 16:21:41.094 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:41.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/RequestResponse] has finished in [306] ms
+11-Oct-2026 16:21:41.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/LoginSecurity]
+11-Oct-2026 16:21:41.382 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:41.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/LoginSecurity] has finished in [290] ms
+11-Oct-2026 16:21:41.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspImplicit]
+11-Oct-2026 16:21:41.661 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:41.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspImplicit] has finished in [277] ms
+11-Oct-2026 16:21:41.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/CookieDemo]
+11-Oct-2026 16:21:41.899 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:41.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/CookieDemo] has finished in [236] ms
+11-Oct-2026 16:21:41.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/SessionCart]
+11-Oct-2026 16:21:42.151 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:42.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/SessionCart] has finished in [252] ms
+11-Oct-2026 16:21:42.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspActions]
+11-Oct-2026 16:21:42.434 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:42.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspActions] has finished in [285] ms
+11-Oct-2026 16:21:42.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspExpressions]
+11-Oct-2026 16:21:42.694 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:42.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspExpressions] has finished in [257] ms
+11-Oct-2026 16:21:42.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ServletLifeCycle]
+11-Oct-2026 16:21:42.995 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:43.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ServletLifeCycle] has finished in [302] ms
+11-Oct-2026 16:21:43.001 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/BasicJsp]
+11-Oct-2026 16:21:43.359 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:43.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/BasicJsp] has finished in [362] ms
+11-Oct-2026 16:21:43.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ErrorHandling]
+11-Oct-2026 16:21:43.697 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:43.703 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ErrorHandling] has finished in [339] ms
+11-Oct-2026 16:21:43.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JstlDemo]
+11-Oct-2026 16:21:44.038 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:44.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JstlDemo] has finished in [343] ms
+11-Oct-2026 16:21:44.048 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ServletChaining]
+11-Oct-2026 16:21:44.306 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:44.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ServletChaining] has finished in [261] ms
+11-Oct-2026 16:21:44.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/BasicServlet]
+11-Oct-2026 16:21:44.555 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:44.559 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/BasicServlet] has finished in [249] ms
+11-Oct-2026 16:21:44.560 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ROOT]
+11-Oct-2026 16:21:44.806 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:44.811 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ROOT] has finished in [250] ms
+11-Oct-2026 16:21:44.811 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ExpressionLanguage]
+11-Oct-2026 16:21:45.081 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:45.085 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ExpressionLanguage] has finished in [273] ms
+11-Oct-2026 16:21:45.090 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2026 16:21:45.110 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9435] milliseconds
+11-Oct-2026 16:21:55.089 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/MvcCrudApp]
+11-Oct-2026 16:21:55.090 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/MvcCrudApp] has started
+11-Oct-2026 16:21:55.553 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:55.556 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/MvcCrudApp] is completed
+11-Oct-2026 16:21:55.556 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/GenericHttpServlet]
+11-Oct-2026 16:21:55.556 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/GenericHttpServlet] has started
+11-Oct-2026 16:21:55.897 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:55.901 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/GenericHttpServlet] is completed
+11-Oct-2026 16:21:55.902 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/LoginSecurity]
+11-Oct-2026 16:21:55.902 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/LoginSecurity] has started
+11-Oct-2026 16:21:56.211 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:56.215 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/LoginSecurity] is completed
+11-Oct-2026 16:21:56.216 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/ServletLifeCycle]
+11-Oct-2026 16:21:56.216 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ServletLifeCycle] has started
+11-Oct-2026 16:21:56.518 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:56.522 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ServletLifeCycle] is completed
+11-Oct-2026 16:21:56.522 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/SessionCart]
+11-Oct-2026 16:21:56.522 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SessionCart] has started
+11-Oct-2026 16:21:56.790 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:56.793 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SessionCart] is completed
+11-Oct-2026 16:21:56.794 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/SimpleMvcApp]
+11-Oct-2026 16:21:56.794 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SimpleMvcApp] has started
+11-Oct-2026 16:21:57.198 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:57.203 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SimpleMvcApp] is completed
+11-Oct-2026 16:21:57.204 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/ErrorHandling]
+11-Oct-2026 16:21:57.204 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ErrorHandling] has started
+11-Oct-2026 16:21:57.560 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:57.564 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ErrorHandling] is completed
+11-Oct-2026 16:21:57.564 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/GetPostHead]
+11-Oct-2026 16:21:57.564 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/GetPostHead] has started
+11-Oct-2026 16:21:57.907 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:57.913 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/GetPostHead] is completed
+11-Oct-2026 16:21:57.914 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/ServletChaining]
+11-Oct-2026 16:21:57.914 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ServletChaining] has started
+11-Oct-2026 16:21:58.293 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:58.299 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ServletChaining] is completed
+11-Oct-2026 16:21:58.300 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/RequestResponse]
+11-Oct-2026 16:21:58.300 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/RequestResponse] has started
+11-Oct-2026 16:21:58.702 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:58.707 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/RequestResponse] is completed
+11-Oct-2026 16:21:58.708 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/BasicServlet]
+11-Oct-2026 16:21:58.708 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BasicServlet] has started
+11-Oct-2026 16:21:59.063 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:59.066 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BasicServlet] is completed
+11-Oct-2026 16:21:59.067 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/CookieDemo]
+11-Oct-2026 16:21:59.067 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/CookieDemo] has started
+11-Oct-2026 16:21:59.403 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:21:59.408 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/CookieDemo] is completed
+11-Oct-2026 16:23:27.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+11-Oct-2026 16:23:27.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+11-Oct-2026 16:23:27.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+11-Oct-2026 16:23:27.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2026 16:23:27.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            7.0.0-38-generic
+11-Oct-2026 16:23:27.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2026 16:23:27.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+11-Oct-2026 16:23:27.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.20.1+1-1-26.04-Ubuntu
+11-Oct-2026 16:23:27.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+11-Oct-2026 16:23:27.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat
+11-Oct-2026 16:23:27.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat
+11-Oct-2026 16:23:27.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Oct-2026 16:23:27.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Oct-2026 16:23:27.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Oct-2026 16:23:27.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Oct-2026 16:23:27.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2026 16:23:27.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/conf/logging.properties
+11-Oct-2026 16:23:27.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2026 16:23:27.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2026 16:23:27.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2026 16:23:27.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Oct-2026 16:23:27.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Oct-2026 16:23:27.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat
+11-Oct-2026 16:23:27.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat
+11-Oct-2026 16:23:27.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/temp
+11-Oct-2026 16:23:27.220 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+11-Oct-2026 16:23:27.659 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2026 16:23:27.674 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:567)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1332)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1345)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+11-Oct-2026 16:23:27.676 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [750] milliseconds
+11-Oct-2026 16:23:27.733 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Oct-2026 16:23:27.734 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+11-Oct-2026 16:23:27.750 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspDirectives]
+11-Oct-2026 16:23:28.511 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:28.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspDirectives] has finished in [830] ms
+11-Oct-2026 16:23:28.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/docs]
+11-Oct-2026 16:23:28.881 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:28.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/docs] has finished in [304] ms
+11-Oct-2026 16:23:28.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/MvcCrudApp]
+11-Oct-2026 16:23:29.263 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:29.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/MvcCrudApp] has finished in [383] ms
+11-Oct-2026 16:23:29.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/CustomTag]
+11-Oct-2026 16:23:29.521 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:29.528 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/CustomTag] has finished in [260] ms
+11-Oct-2026 16:23:29.529 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/GenericHttpServlet]
+11-Oct-2026 16:23:29.819 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:29.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/GenericHttpServlet] has finished in [295] ms
+11-Oct-2026 16:23:29.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/examples]
+11-Oct-2026 16:23:30.257 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:30.314 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/examples] has finished in [488] ms
+11-Oct-2026 16:23:30.314 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/SimpleMvcApp]
+11-Oct-2026 16:23:30.570 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:30.575 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/SimpleMvcApp] has finished in [260] ms
+11-Oct-2026 16:23:30.575 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/GetPostHead]
+11-Oct-2026 16:23:30.825 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:30.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/GetPostHead] has finished in [253] ms
+11-Oct-2026 16:23:30.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/host-manager]
+11-Oct-2026 16:23:31.122 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:31.131 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/host-manager] has finished in [302] ms
+11-Oct-2026 16:23:31.132 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/manager]
+11-Oct-2026 16:23:31.396 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:31.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/manager] has finished in [267] ms
+11-Oct-2026 16:23:31.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/RequestResponse]
+11-Oct-2026 16:23:31.629 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:31.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/RequestResponse] has finished in [232] ms
+11-Oct-2026 16:23:31.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/LoginSecurity]
+11-Oct-2026 16:23:31.884 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:31.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/LoginSecurity] has finished in [254] ms
+11-Oct-2026 16:23:31.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspImplicit]
+11-Oct-2026 16:23:32.123 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:32.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspImplicit] has finished in [238] ms
+11-Oct-2026 16:23:32.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/CookieDemo]
+11-Oct-2026 16:23:32.339 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:32.343 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/CookieDemo] has finished in [215] ms
+11-Oct-2026 16:23:32.343 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/SessionCart]
+11-Oct-2026 16:23:32.542 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:32.546 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/SessionCart] has finished in [202] ms
+11-Oct-2026 16:23:32.546 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspActions]
+11-Oct-2026 16:23:32.751 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:32.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspActions] has finished in [208] ms
+11-Oct-2026 16:23:32.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspExpressions]
+11-Oct-2026 16:23:32.961 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:32.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JspExpressions] has finished in [208] ms
+11-Oct-2026 16:23:32.964 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ServletLifeCycle]
+11-Oct-2026 16:23:33.164 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:33.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ServletLifeCycle] has finished in [203] ms
+11-Oct-2026 16:23:33.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/BasicJsp]
+11-Oct-2026 16:23:33.396 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:33.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/BasicJsp] has finished in [232] ms
+11-Oct-2026 16:23:33.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ErrorHandling]
+11-Oct-2026 16:23:33.643 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:33.646 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ErrorHandling] has finished in [245] ms
+11-Oct-2026 16:23:33.646 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JstlDemo]
+11-Oct-2026 16:23:33.873 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:33.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/JstlDemo] has finished in [235] ms
+11-Oct-2026 16:23:33.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ServletChaining]
+11-Oct-2026 16:23:34.096 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:34.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ServletChaining] has finished in [218] ms
+11-Oct-2026 16:23:34.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/BasicServlet]
+11-Oct-2026 16:23:34.302 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:34.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/BasicServlet] has finished in [206] ms
+11-Oct-2026 16:23:34.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ROOT]
+11-Oct-2026 16:23:34.517 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:34.520 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ROOT] has finished in [215] ms
+11-Oct-2026 16:23:34.521 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ExpressionLanguage]
+11-Oct-2026 16:23:34.715 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:23:34.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mrrobot/D/CODE-FYIMP/SEM05/JAVA/module 4/tomcat/webapps/ExpressionLanguage] has finished in [197] ms
+11-Oct-2026 16:23:34.722 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7046] milliseconds
+11-Oct-2026 16:23:34.726 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:567)
+		at java.base/sun.nio.ch.Net.bind(Net.java:556)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+11-Oct-2026 16:23:34.726 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2026 16:23:34.727 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Oct-2026 16:23:34.746 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [MvcCrudApp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.20.1/java.lang.Object.wait(Native Method)
+ java.base@17.0.20.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.20.1/java.lang.Thread.run(Thread.java:840)
+11-Oct-2026 16:23:34.823 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2026 16:23:34.828 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2026 16:24:39.472 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/BasicServlet]
+11-Oct-2026 16:24:39.472 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BasicServlet] has started
+11-Oct-2026 16:24:39.693 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:24:39.695 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BasicServlet] is completed
+11-Oct-2026 16:28:59.780 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/SimpleMvcApp]
+11-Oct-2026 16:28:59.783 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SimpleMvcApp] has started
+11-Oct-2026 16:29:00.056 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:29:00.066 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SimpleMvcApp] is completed
+11-Oct-2026 16:30:10.089 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/MvcCrudApp]
+11-Oct-2026 16:30:10.090 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/MvcCrudApp] has started
+11-Oct-2026 16:30:10.092 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [MvcCrudApp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+11-Oct-2026 16:30:10.093 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [MvcCrudApp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.20.1/java.lang.Object.wait(Native Method)
+ java.base@17.0.20.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.20.1/java.lang.Thread.run(Thread.java:840)
+11-Oct-2026 16:30:10.416 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:30:10.419 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/MvcCrudApp] is completed
+11-Oct-2026 16:30:14.885 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+11-Oct-2026 16:30:30.425 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/MvcCrudApp]
+11-Oct-2026 16:30:30.425 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/MvcCrudApp] has started
+11-Oct-2026 16:30:30.426 INFO [Catalina-utility-2] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [crud]
+11-Oct-2026 16:30:30.735 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [MvcCrudApp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+11-Oct-2026 16:30:30.736 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [MvcCrudApp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.20.1/java.lang.Object.wait(Native Method)
+ java.base@17.0.20.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.20.1/java.lang.Thread.run(Thread.java:840)
+11-Oct-2026 16:30:30.958 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+11-Oct-2026 16:30:31.088 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2026 16:30:31.092 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/MvcCrudApp] is completed
+11-Oct-2026 21:27:01.706 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2026 21:27:01.807 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Oct-2026 21:27:02.273 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [MvcCrudApp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.20.1/java.lang.Object.wait(Native Method)
+ java.base@17.0.20.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.20.1/java.lang.Thread.run(Thread.java:840)
+11-Oct-2026 21:27:02.486 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2026 21:27:02.683 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

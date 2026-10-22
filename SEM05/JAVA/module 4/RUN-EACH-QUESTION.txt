@@ -1,0 +1,135 @@
+START ONCE (do this first):
+  cd "SEM05/JAVA/module 4"
+  chmod +x tomcat/bin/*.sh
+  ./tomcat/bin/startup.sh
+
+--------------------------------------------------
+Q1  BasicServlet - display student info
+  cp -r BasicServlet tomcat/webapps/
+  OPEN: http://localhost:8080/BasicServlet/basic
+  TEST: curl http://localhost:8080/BasicServlet/basic
+
+--------------------------------------------------
+Q2  GenericHttpServlet - Generic vs Http
+  cp -r GenericHttpServlet tomcat/webapps/
+  OPEN: http://localhost:8080/GenericHttpServlet/generic
+  OPEN: http://localhost:8080/GenericHttpServlet/http
+  TEST: curl http://localhost:8080/GenericHttpServlet/generic
+  TEST: curl http://localhost:8080/GenericHttpServlet/http
+
+--------------------------------------------------
+Q3  ServletLifeCycle - init/service/destroy
+  cp -r ServletLifeCycle tomcat/webapps/
+  OPEN: http://localhost:8080/ServletLifeCycle/life
+  TEST: curl http://localhost:8080/ServletLifeCycle/life
+  LOG:  tail tomcat/logs/catalina.out
+
+--------------------------------------------------
+Q4  RequestResponse - form -> servlet
+  cp -r RequestResponse tomcat/webapps/
+  OPEN: http://localhost:8080/RequestResponse/form.html
+  (fill Name/Course -> Submit)
+
+--------------------------------------------------
+Q5  GetPostHead - GET/POST/HEAD
+  cp -r GetPostHead tomcat/webapps/
+  OPEN: http://localhost:8080/GetPostHead/form.html
+  TEST HEAD: curl -I "http://localhost:8080/GetPostHead/method?name=Amit"
+
+--------------------------------------------------
+Q6  ServletChaining - First -> Second
+  cp -r ServletChaining tomcat/webapps/
+  OPEN: http://localhost:8080/ServletChaining/first
+  TEST: curl http://localhost:8080/ServletChaining/first
+
+--------------------------------------------------
+Q7  CookieDemo - save/read cookie
+  cp -r CookieDemo tomcat/webapps/
+  SAVE: http://localhost:8080/CookieDemo/cookie?name=Amit
+  READ: http://localhost:8080/CookieDemo/cookie
+  TEST: curl "http://localhost:8080/CookieDemo/cookie?name=Amit"
+
+--------------------------------------------------
+Q8  SessionCart - shopping cart in session
+  cp -r SessionCart tomcat/webapps/
+  ADD:  http://localhost:8080/SessionCart/cart?item=Book
+  ADD:  http://localhost:8080/SessionCart/cart?item=Pen
+  VIEW: http://localhost:8080/SessionCart/cart
+
+--------------------------------------------------
+Q9  LoginSecurity - login + protected (admin/1234)
+  cp -r LoginSecurity tomcat/webapps/
+  OPEN: http://localhost:8080/LoginSecurity/login.html
+  (login admin / 1234 -> goes to /protected)
+  TEST denied: curl http://localhost:8080/LoginSecurity/protected
+
+--------------------------------------------------
+Q10 ErrorHandling - error + custom page
+  cp -r ErrorHandling tomcat/webapps/
+  OPEN: http://localhost:8080/ErrorHandling/error
+  TEST: curl http://localhost:8080/ErrorHandling/error
+
+--------------------------------------------------
+Q11 BasicJsp - JSP + visit counter
+  cp -r BasicJsp tomcat/webapps/
+  OPEN: http://localhost:8080/BasicJsp/index.jsp
+  TEST: curl http://localhost:8080/BasicJsp/index.jsp
+
+--------------------------------------------------
+Q12 JspExpressions - total & average
+  cp -r JspExpressions tomcat/webapps/
+  OPEN: http://localhost:8080/JspExpressions/marks.jsp
+
+--------------------------------------------------
+Q13 JspDirectives - page directives
+  cp -r JspDirectives tomcat/webapps/
+  OPEN: http://localhost:8080/JspDirectives/directives.jsp
+
+--------------------------------------------------
+Q14 JspActions - useBean/include
+  cp -r JspActions tomcat/webapps/
+  OPEN: http://localhost:8080/JspActions/actions.jsp
+
+--------------------------------------------------
+Q15 JspImplicit - request/session/application
+  cp -r JspImplicit tomcat/webapps/
+  OPEN: http://localhost:8080/JspImplicit/implicit.jsp
+
+--------------------------------------------------
+Q16 ExpressionLanguage - EL + bean
+  cp -r ExpressionLanguage tomcat/webapps/
+  OPEN: http://localhost:8080/ExpressionLanguage/el.jsp?name=Amit
+  TEST: curl "http://localhost:8080/ExpressionLanguage/el.jsp?name=Amit"
+
+--------------------------------------------------
+Q17 JstlDemo - c:if/forEach/choose (NEEDS JARS)
+  cp -r JstlDemo tomcat/webapps/
+  mkdir -p tomcat/webapps/JstlDemo/WEB-INF/lib
+  cp lib/jstl.jar lib/standard.jar tomcat/webapps/JstlDemo/WEB-INF/lib/
+  OPEN: http://localhost:8080/JstlDemo/jstl.jsp
+
+--------------------------------------------------
+Q18 CustomTag - <ct:hello/>
+  cp -r CustomTag tomcat/webapps/
+  OPEN: http://localhost:8080/CustomTag/custom.jsp
+
+--------------------------------------------------
+Q19 SimpleMvcApp - Servlet -> bean -> view.jsp
+  cp -r SimpleMvcApp tomcat/webapps/
+  OPEN: http://localhost:8080/SimpleMvcApp/student
+
+--------------------------------------------------
+Q20 MvcCrudApp - Servlet+JSP+MySQL (NEEDS MySQL)
+  cp -r MvcCrudApp tomcat/webapps/
+  mkdir -p tomcat/webapps/MvcCrudApp/WEB-INF/lib
+  cp lib/mysql-connector-j.jar tomcat/webapps/MvcCrudApp/WEB-INF/lib/
+  MySQL once: mysql -u root -p -e "CREATE DATABASE IF NOT EXISTS college_db;"
+  (user=root password=root, see MvcCrudApp.java)
+  LIST:   http://localhost:8080/MvcCrudApp/crud
+  ADD:    http://localhost:8080/MvcCrudApp/crud?action=add&name=Ravi&marks=80
+  UPDATE: http://localhost:8080/MvcCrudApp/crud?action=update&id=1&marks=90
+  DELETE: http://localhost:8080/MvcCrudApp/crud?action=delete&id=1
+
+--------------------------------------------------
+STOP:
+  ./tomcat/bin/shutdown.sh
